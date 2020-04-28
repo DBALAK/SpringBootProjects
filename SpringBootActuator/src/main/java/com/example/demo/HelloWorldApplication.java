@@ -8,7 +8,7 @@ public class HelloWorldApplication {
 
 	public static void main(String[] args) {
 		// By default only /health and /info endpoints are enabled
-		SpringApplication.run(HelloWorldApplication.class, args);
+		SpringApplication.run(HelloWorldApplication.class, args); // Test commit
 		
 		// To access other endpoints add the property to application.propeties
 	}
